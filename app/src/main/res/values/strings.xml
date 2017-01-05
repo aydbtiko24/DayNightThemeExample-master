@@ -1,0 +1,76 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">DayNight Theme Example</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="list_theme_option">
+        <item>Otomatis</item>
+        <item>Selalu Putih</item>
+        <item>Selalu Gelap</item>
+    </string-array>
+
+    <string-array name="list_theme_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="default_value_theme">0</string>
+
+    <string name="key_theme">theme_pref</string>
+    <string name="str_title_dialog">Ubah Tema</string>
+    <string name="key_theme_preference">key_preference</string>
+    <string name="simple_card_view">Simple Card View</string>
+
+
+    <string name="transition_name">transition</string>
+
+    <string name="title">AppCompat v23.2 , DayNight</string>
+    <string name="detail">As you may have seen in the Support Lib 23.2.0 blog post, AppCompat now has a new theme family: Theme.AppCompat.DayNight.
+What these themes do is switch between Theme.AppCompat (dark) and Theme.AppCompat.Light (light) based on the time of day. This has many benefits for your users, especially if you’re a content app (it seems to have become a standard feature in Reddit clients). One thing to note is that this feature only actually has an effect when running on an API v14 and later device, on devices before that it will default to the light theme</string>
+    <string name="default_auto">Default Mode: Auto</string>
+    <string name="default_night">Default Mode: Night</string>
+    <string name="default_day">Default Mode: Day</string>
+    <string name="pref_email_key">email</string>
+    <string name="url">https://static.pexels.com/photos/177707/pexels-photo-177707.jpeg</string>
+
+    <!--Shared preferences launch status-->
+    <string name="launch_status_key">launchStatus</string>
+    <string name="is_first_time_launch">isFirstTimeLaunch</string>
+    <!--Intro Slider-->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <!--slide title and description 1-->
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favorite restaurant!</string>
+    <!--slide title and description 2-->
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <!--slide title and description 3-->
+    <string name="slide_3_title">World Travel</string>
+    <string name="slide_3_desc">Book ticket of any transportation and travel the world!</string>
+    <!--slide title and description 4-->
+    <string name="slide_4_title">Great Discounts</string>
+    <string name="slide_4_desc">Best discount on every single service we offer!</string>
+    <!--play again-->
+    <string name="play_again">Play Again</string>
+    <string name="play_again_desc">To see the welcome slide again, goto Settings -> apps -> welcome slider -> clear data</string>
+
+    <string name="format_notification">New Article: <xliff:g id="condition">%1$s</xliff:g></string>
+
+    <!--The description that will show up in the search settings for this source.-->
+    <string name="settings_description">Definitions of words</string>
+    <!--General instructions in the main activity-->
+    <string name="search_instructions">Use the search box in the Action Bar to look up a word</string>
+
+
+    <!--Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+        <item quantity="one">%1$d result for \"%2$s\":</item>
+        <item quantity="other">%1$d results for \"%2$s\":</item>
+    </plurals>
+
+    <!--Search failure message. -->
+    <string name="no_result">No results found for \"%s\"</string>
+</resources>

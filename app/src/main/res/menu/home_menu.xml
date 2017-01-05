@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/action1"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/spinnerThemeAction"
+        android:title="Theme"
+        app:showAsAction="never" />
+</menu>
